@@ -1,0 +1,16 @@
+//Headers
+
+.header-nav {
+  width: 100%;
+  height: $header-height;
+  background: $header-bg;
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  padding: 0 3em;
+}
+
+.header-nav__logo {
+  height: 35%;
+}

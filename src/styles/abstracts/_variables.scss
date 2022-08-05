@@ -1,0 +1,19 @@
+//Variables
+
+// Defaults
+
+//Colors
+$palette--main-red: #e50914;
+$palette--dark-gray: #141414;
+$palette--black: #060606;
+
+//Backgrounds
+$header-bg: linear-gradient(rgba($palette--black, 0.7), transparent);
+
+//Dimensions
+$header-height: 68px;
+
+//Scrolled
+html:not([data-scroll='0']) {
+  $header-bg: black;
+}

@@ -1,0 +1,16 @@
+// Containers
+
+#root {
+  width: inherit;
+  height: inherit;
+  max-width: inherit;
+  max-height: inherit;
+  min-width: inherit;
+  min-height: inherit;
+}
+
+#app-container {
+  width: 100%;
+  min-height: inherit;
+  background: $palette--dark-gray;
+}

@@ -1,0 +1,12 @@
+//Links
+
+.svg-link {
+  & > svg {
+    width: auto;
+    max-height: 100%;
+  }
+}
+
+.netflix-text-logo {
+  fill: $palette--main-red;
+}

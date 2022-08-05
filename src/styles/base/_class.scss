@@ -1,0 +1,22 @@
+//Global Classes
+
+.text-align-center {
+  text-align: center;
+
+  &--all * {
+    text-align: center;
+  }
+}
+
+.outlined {
+  &-green {
+    outline: solid 2px green;
+  }
+  &-red {
+    outline: solid 2px red;
+  }
+}
+
+.box-shadow--light {
+  box-shadow: 0 0.5em 1.5em #0002;
+}

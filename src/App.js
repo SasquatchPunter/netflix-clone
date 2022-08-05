@@ -1,23 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import HeroSection from './components/HeroSection';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id="app-container">
+      <NavBar />
+      <HeroSection src="https://occ-0-857-92.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABZazFUMJV4lCkq5RYr9E1ctFy9bvTMzRi6Rnvs9GNGXIHGsNefKnABiUV_A1ExJ9D8xETiaQp2DYwtSICFB0OXAIhFLtm6xtbsNx.webp?r=51f" />
     </div>
   );
 }
