@@ -1,6 +1,6 @@
 import * as react from 'react';
 
-/** SVGLink */
+/** SVG Link */
 function SVGLink({ href = '/', className = '', children }) {
   return (
     <a href={href} className={'svg-link ' + className}>

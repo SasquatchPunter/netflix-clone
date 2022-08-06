@@ -6,7 +6,7 @@ function App() {
   return (
     <div id="app-container">
       <NavBar />
-      <HeroSection src={movData.library[0].imageUrl} />
+      <HeroSection src={movData.library[0].imageUrls.billboard} />
     </div>
   );
 }

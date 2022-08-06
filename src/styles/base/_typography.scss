@@ -1,5 +1,20 @@
 //Typography
 
+//Global Tags
 h1 {
   margin: 0;
+}
+
+// Color Classes
+.c-white {
+  color: $palette-white;
+}
+.c-dark-gray {
+  color: $palette--dark-gray;
+}
+.c-black {
+  color: $palette--black;
+}
+.c-main-red {
+  color: $palette--main-red;
 }

@@ -6,8 +6,28 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: $ff-circular-std;
+  font-weight: lighter;
 }
 
 path {
   fill: inherit;
+}
+
+a {
+  color: $palette-gray;
+  text-decoration: none;
+  transition: color ease-in-out 0.25s;
+
+  &:hover {
+    color: darken($palette-gray, 25);
+  }
+  &:active {
+    color: $palette-white;
+  }
+}
+
+button {
+  background: none;
+  border: none;
 }

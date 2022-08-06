@@ -1,7 +1,7 @@
 function HeroSection({ src }) {
   return (
     <section className="hero-section">
-      <img src={src} className="hero-section__image" />
+      <img src={src} className="hero-section__billboard" />
     </section>
   );
 }

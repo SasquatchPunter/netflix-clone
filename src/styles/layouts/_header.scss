@@ -3,7 +3,7 @@
 .header-nav {
   width: 100%;
   height: $header-height;
-  background: $header-bg;
+  background: $vg-top;
   position: fixed;
   top: 0;
   display: flex;
@@ -12,5 +12,17 @@
 }
 
 .header-nav__logo {
-  height: 35%;
+  height: 40%;
+}
+
+.header-nav__menu {
+  font-size: $fs-sm;
+  & > a {
+    font-weight: $fw-light;
+    margin-right: 1.5em;
+    &.current {
+      font-weight: $fw-medium;
+      color: $palette-white;
+    }
+  }
 }

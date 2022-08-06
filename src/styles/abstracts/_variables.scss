@@ -2,16 +2,32 @@
 
 // Defaults
 
+//Fonts
+$ff-circular-std: 'Circular Std';
+
 //Colors
 $palette--main-red: #e50914;
 $palette--dark-gray: #141414;
 $palette--black: #060606;
+$palette-white: #fff;
+$palette-gray: #e5e5e5;
 
 //Backgrounds
-$header-bg: linear-gradient(rgba($palette--black, 0.7), transparent);
+$vg-top: linear-gradient($palette--dark-gray, transparent);
+$vg-bottom: linear-gradient(transparent, $palette--dark-gray);
 
 //Dimensions
 $header-height: 68px;
+
+/* FONTS */
+//Size
+$fs-normal: 1rem;
+$fs-sm: 0.9rem;
+//Weight
+$fw-light: 300;
+$fw-medium: 500;
+$fw-bold: 700;
+$fw-black: 900;
 
 //Scrolled
 html:not([data-scroll='0']) {
